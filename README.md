@@ -315,19 +315,19 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 	* (-)[Exercise 10: What Was That?]()
 
-	* (-)[Exercise 11: Asking Questions]()
+	* [Exercise 11: Asking Questions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex11)
 
-	* (-)[Exercise 12: Prompting People]()
+	* [Exercise 12: Prompting People](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex12)
 
-	* (-)[Exercise 13: Parameters, Unpacking, Variables]()
+	* [Exercise 13: Parameters, Unpacking, Variables](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex13)
 
-	* (-)[Exercise 14: Prompting And Passing]()
+	* [Exercise 14: Prompting And Passing](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex14)
 
-	* (-)[Exercise 15: Reading Files]()
+	* [Exercise 15: Reading Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex15)
 
-	* (-)[Exercise 16: Reading And Writing Files]()
+	* [Exercise 16: Reading And Writing Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex16)
 
-	* (-)[Exercise 17: More Files]()
+	* [Exercise 17: More Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex17)
 
 	* (-)[Exercise 18: Names, Variables, Code, Functions]()
 
