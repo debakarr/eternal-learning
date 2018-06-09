@@ -1,0 +1,4 @@
+Hey this is the first file.
+It just contains few random words.
+I like Machine Learning
+Hope we learn new thing everyday.
