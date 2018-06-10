@@ -329,55 +329,55 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 	* [Exercise 17: More Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex17)
 
-	* (-)[Exercise 18: Names, Variables, Code, Functions]()
+	* [Exercise 18: Names, Variables, Code, Functions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex18)
 
-	* (-)[Exercise 19: Functions And Variables]()
+	* [Exercise 19: Functions And Variables](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex19)
 
-	* (-)[Exercise 20: Functions And Files]()
+	* [Exercise 20: Functions And Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex20)
 
-	* (-)[Exercise 21: Functions Can Return Something]()
+	* [Exercise 21: Functions Can Return Something](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex21)
 
 	* (-)[Exercise 22: What Do You Know So Far?]()
 
-	* (-)[Exercise 23: Read Some Code]()
+	* [Exercise 23: Read Some Code](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex23)
 
-	* (-)[Exercise 24: More Practice]()
+	* [Exercise 24: More Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex24)
 
-	* (-)[Exercise 25: Even More Practice]()
+	* [Exercise 25: Even More Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex25)
 
-	* (-)[Exercise 26: Congratulations, Take A Test!]()
+	* [Exercise 26: Congratulations, Take A Test!](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex26)
 
 	* (-)[Exercise 27: Memorizing Logic]()
 
-	* (-)[Exercise 28: Boolean Practice]()
+	* [Exercise 28: Boolean Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex28)
 
-	* (-)[Exercise 29: What If]()
+	* [Exercise 29: What If](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex29)
 
-	* (-)[Exercise 30: Else And If]()
+	* [Exercise 30: Else And If](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex30)
 
-	* (-)[Exercise 31: Making Decisions]()
+	* [Exercise 31: Making Decisions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex31)
 
-	* (-)[Exercise 32: Loops And Lists]()
+	* [Exercise 32: Loops And Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex32)
 
-	* (-)[Exercise 33: While Loops]()
+	* [Exercise 33: While Loops](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex33)
 
-	* (-)[Exercise 34: Accessing Elements Of Lists]()
+	* [Exercise 34: Accessing Elements Of Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex34)
 
-	* (-)[Exercise 35: Branches and Functions]()
+	* [Exercise 35: Branches and Functions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex35)
 
 	* (-)[Exercise 36: Designing and Debugging]()
 
 	* (-)[Exercise 37: Symbol Review]()
 
-	* (-)[Exercise 38: Doing Things To Lists]()
+	* [Exercise 38: Doing Things To Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex38)
 
-	* (-)[Exercise 39: Dictionaries, Oh Lovely Dictionaries]()
+	* [Exercise 39: Dictionaries, Oh Lovely Dictionaries](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex39)
 
-	* (-)[Exercise 40: Modules, Classes, And Objects]()
+	* [Exercise 40: Modules, Classes, And Objects](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex40)
 
-	* (-)[Exercise 41: Learning To Speak Object Oriented]()
+	* [Exercise 41: Learning To Speak Object Oriented](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex41)
 
-	* (-)[Exercise 42: Is-A, Has-A, Objects, and Classes]()
+	* [Exercise 42: Is-A, Has-A, Objects, and Classes](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex42)
 
 	* (-)[Exercise 43: Gothons From Planet Percal #25]()
 
