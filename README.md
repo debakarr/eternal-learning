@@ -10,6 +10,8 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 	* [Python](#python)
 		* [Learn Python The Hard Way](#lpthw)
 
+	* [Regex](#regex)
+
 * [Online Courses](#onlineCourses)
 	* [[Udemy] Machine Learning A-Z™: Hands-On Python & R In Data Science](#udemyMachineLearning)
 	* [[Google Developers] Machine Learning Crash Course with TensorFlow APIs](#googleDevelopersMachineLearning)
@@ -138,6 +140,64 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 	* (-)[Exercise 51: Getting Input From A Browser]()
 
 	* (-)[Exercise 52: The Start Of Your Web Game]()
+
+***
+
+<a name="regex"></a>
+#### Regular Expression
+
+***
+
+* **[Raw string literals]()**
+
+* **[re.compile()]()**
+
+* **[re.finditer()]()**
+
+* **[string slicing]()**
+
+* **[MetaCharacters]()**
+
+	* [\d]
+
+	* [\D]
+
+	* [\w]
+
+	* [\W]
+
+	* [\s]
+
+	* [\S]
+
+	* [\b]
+
+	* [\B]
+
+	* [^ and $]
+
+	* [character set - []]
+
+	* [[] with ^]
+
+* **[Quantifiers]()**
+
+	* [regex on Phone Numbers]
+
+	* [{}]
+
+	* [\*, + and ?]
+
+	* [regex on url]
+
+* **[re.findall()]()**
+
+* **[re.match()]()**
+
+* **[re.search()]()**
+
+* **[flags]()**
+
 
 ***
 
