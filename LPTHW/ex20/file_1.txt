@@ -1,0 +1,4 @@
+Here's a new file.
+Adding dummy line.
+Just typing anything possible.
+So now we have 4 lines.
