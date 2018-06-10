@@ -148,55 +148,55 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 ***
 
-* **[Raw string literals]()**
+* **[Raw string literals](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#Raw-string-literals)**
 
-* **[re.compile()]()**
+* **[re.compile()](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#re.compile())**
 
-* **[re.finditer()]()**
+* **[re.finditer()](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#re.finditer())**
 
-* **[string slicing]()**
+* **[string slicing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#string-slicing)**
 
-* **[MetaCharacters]()**
+* **[MetaCharacters](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#MetaCharacters)**
 
-	* [\d]
+	* \d
 
-	* [\D]
+	* \D
 
-	* [\w]
+	* \w
 
-	* [\W]
+	* \W
 
-	* [\s]
+	* \s
 
-	* [\S]
+	* \S
 
-	* [\b]
+	* \b
 
-	* [\B]
+	* \B
 
-	* [^ and $]
+	* ^ and $
 
-	* [character set - []]
+	* character set - []
 
-	* [[] with ^]
+	* [] with ^
 
-* **[Quantifiers]()**
+* **[Quantifiers](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#Quantifiers)**
 
-	* [regex on Phone Numbers]
+	* regex on Phone Numbers
 
-	* [{}]
+	* {}
 
-	* [\*, + and ?]
+	* \*, + and ?
 
-	* [regex on url]
+	* regex on url
 
-* **[re.findall()]()**
+* **[re.findall()](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#re.findall())**
 
-* **[re.match()]()**
+* **[re.match()](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#re.match())**
 
-* **[re.search()]()**
+* **[re.search()](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#re.search())**
 
-* **[flags]()**
+* **[flags](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#flags)**
 
 
 ***
