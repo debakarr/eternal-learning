@@ -12,6 +12,8 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 	* [Regex](#regex)
 
+	* [Git](#git)
+
 * [Online Courses](#onlineCourses)
 	* [[Udemy] Machine Learning A-Z™: Hands-On Python & R In Data Science](#udemyMachineLearning)
 	* [[Google Developers] Machine Learning Crash Course with TensorFlow APIs](#googleDevelopersMachineLearning)
@@ -144,7 +146,7 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 ***
 
 <a name="regex"></a>
-#### Regular Expression
+#### [Regular Expression Notes](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb)
 
 ***
 
@@ -198,6 +200,9 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 * **[flags](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#flags)**
 
+***
+
+#### [Git Notes](https://github.com/Dibakarroy1997/eternal-learning/blob/master/Git/README.md)
 
 ***
 
