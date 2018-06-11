@@ -202,7 +202,7 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 ***
 
-<a name="books"></a>
+<a name="git"></a>
 #### [Git Notes](https://github.com/Dibakarroy1997/eternal-learning/blob/master/Git/README.md)
 
 ***
