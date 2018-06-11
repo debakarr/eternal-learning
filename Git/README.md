@@ -349,4 +349,4 @@ So this is a overview of how to use Git to work with local and remote repository
 
 Finally here's a diagram which show the basic flow.
 
-![](img/.png)
+![](img/working-stage-localrepo-remoterepo.png)
