@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/baka/Project/eternal-Learning/Tensorflowmodel.ckpt"
+all_model_checkpoint_paths: "/home/baka/Project/eternal-Learning/Tensorflowmodel.ckpt"
