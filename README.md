@@ -14,9 +14,10 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 	* [Git](#git)
 
-* [Online Courses](#onlineCourses)
-	* [[Udemy] Machine Learning A-Z™: Hands-On Python & R In Data Science](#udemyMachineLearning)
-	* [[Google Developers] Machine Learning Crash Course with TensorFlow APIs](#googleDevelopersMachineLearning)
+* [Course Notebooks](#onlineCourses)
+	* [[Udemy] Python for Data Science and Machine Learning Bootcamp (Jupyter Notebook)](#udemyPythonDataScienceBootcamp)
+	* [[Udemy] Machine Learning A-Z™: Hands-On Python & R In Data Science (Jupyter Notebook)](#udemyMachineLearning)
+	* [[Google Developers] Machine Learning Crash Course with TensorFlow APIs (PDF)](#googleDevelopersMachineLearning)
 
 * [My Blog](#myBlog)
 
@@ -209,6 +210,44 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 <a name="onlineCourses"></a>
 ## Online Courses
+
+***
+
+<a name="udemyPythonDataScienceBootcamp"></a>
+#### [Udemy] Python for Data Science and Machine Learning Bootcamp
+
+* Data Analysis
+	* Numpy
+		* Basic NumPy Arrays
+		* Indexing, Slicing and Selection
+		* Operations
+
+	* Pandas
+		* Series
+		* DataFrames
+		* Missing Data
+		* Groupby
+		* Merging Joining and Concatenating
+		* Operations
+		* Data Input and Output
+
+* Data Visualization
+	* Matplotlib
+		* Basic Concepts
+		* Advanced Concepts
+
+	* Pandas
+		* Built-in Data Visualization
+
+	* Seaborn
+		* Distribution Plots
+		* Categorical Plots
+		* Matrix Plots
+		* Regression Plots
+		* Grids
+		* Style and Color
+
+	* Plotly and Cufflinks
 
 ***
 <a name="udemyMachineLearning"></a>
@@ -411,7 +450,6 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 	* [[Notes] Reducing Loss Stochastic Gradient Descent](https://github.com/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Crash%20Course%20with%20TensorFlow%20APIs%20Google%20Developers/Reducing%20Loss/%5BNotes%5D%20Reducing%20Loss%20Stochastic%20Gradient%20Descent.pdf)
 
 ***
-
 <a name="myBlog"></a>
 ## My Blog
 
