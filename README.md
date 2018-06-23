@@ -218,36 +218,36 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 * Data Analysis
 	* Numpy
-		* Basic NumPy Arrays
-		* Indexing, Slicing and Selection
-		* Operations
+		* [Basic NumPy Arrays](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Numpy/Basic%20NumPy%20Arrays.ipynb)
+		* [Indexing, Slicing and Selection](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Numpy/Numpy%20Indexing%2C%20Slicing%20and%20Selection.ipynb)
+		* [Operations](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Numpy/Numpy%20Operations.ipynb)
 
 	* Pandas
-		* Series
-		* DataFrames
-		* Missing Data
-		* Groupby
-		* Merging Joining and Concatenating
-		* Operations
-		* Data Input and Output
+		* [Series](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Pandas/Pandas%20Series.ipynb)
+		* [DataFrames](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Pandas/Pandas%20DataFrame.ipynb)
+		* [Missing Data](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Pandas/Pandas%20Missing%20Data.ipynb)
+		* [Groupby](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Pandas/Pandas%20Groupby.ipynb)
+		* [Merging Joining and Concatenating](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Pandas/Pandas%20Merging%2C%20Joining%2C%20and%20Concatenating%20.ipynb)
+		* [Operations](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Pandas/Pandas%20Operations.ipynb)
+		* [Data Input and Output](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Pandas/Pandas%20Data%20Input%20and%20Output.ipynb)
 
 * Data Visualization
 	* Matplotlib
-		* Basic Concepts
-		* Advanced Concepts
+		* [Basic Concepts](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Matplotlib/Matplotlib%20Basic%20Concepts.ipynb)
+		* [Advanced Concepts](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Matplotlib/Matplotlib%20Advanced%20Concepts.ipynb)
 
 	* Pandas
-		* Built-in Data Visualization
+		* [Built-in Data Visualization](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Pandas/Pandas%20Built-in%20Data%20Visualization.ipynb)
 
 	* Seaborn
-		* Distribution Plots
-		* Categorical Plots
-		* Matrix Plots
-		* Regression Plots
-		* Grids
-		* Style and Color
+		* [Distribution Plots](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Seaborn/Seaborn%20Distribution%20Plots.ipynb)
+		* [Categorical Plots](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Seaborn/Seaborn%20Categorical%20Plots.ipynb)
+		* [Matrix Plots](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Seaborn/Seaborn%20Matrix%20Plots.ipynb)
+		* [Regression Plots](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Seaborn/Seaborn%20Regression%20Plots.ipynb)
+		* [Grids](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Seaborn/Seaborn%20Grids.ipynb)
+		* [Style and Color](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Seaborn/Seaborn%20Style%20and%20Color.ipynb)
 
-	* Plotly and Cufflinks
+	* [Plotly and Cufflinks](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Plotly%20and%20Cufflinks/Plotly%20and%20Cufflinks.ipynb)
 
 ***
 <a name="udemyMachineLearning"></a>
