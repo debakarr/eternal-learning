@@ -468,7 +468,7 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 * [[Datacamp] 8-Step Guide to Data Science](https://www.datacamp.com/community/tutorials/learn-data-science-infographic)
 
-![]('Miscellaneous/Roadmap and Cheat Sheet/[Datacamp] DataScienceEightSteps.png')
+![](Miscellaneous/Roadmap&#32;and&#32;Cheat&#32;Sheet/[Datacamp]&#32;DataScienceEightSteps.png)
 
 * [Batch Email Send using Gmail API + Spreadsheet API](https://github.com/Dibakarroy1997/eternal-learning/tree/master/Miscellaneous/Send%20Mail)
 
