@@ -466,9 +466,8 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 * [Conda Environments for Data Science](https://github.com/Dibakarroy1997/eternal-learning/blob/master/Miscellaneous/Environments/README.md)
 
-* [[Datacamp] 8-Step Guide to Data Science](https://www.datacamp.com/community/tutorials/learn-data-science-infographic)
-
-![](Miscellaneous/Roadmap&#32;and&#32;Cheat&#32;Sheet/[Datacamp]&#32;DataScienceEightSteps.png)
+* Roadmap
+	* [[Datacamp] 8-Step Guide to Data Science](https://www.datacamp.com/community/tutorials/learn-data-science-infographic)
 
 * [Batch Email Send using Gmail API + Spreadsheet API](https://github.com/Dibakarroy1997/eternal-learning/tree/master/Miscellaneous/Send%20Mail)
 
