@@ -216,6 +216,8 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 <a name="udemyPythonDataScienceBootcamp"></a>
 #### [Udemy] Python for Data Science and Machine Learning Bootcamp
 
+[Link to the course](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/)
+
 * Data Analysis
 	* Numpy
 		* [Basic NumPy Arrays](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Numpy/Basic%20NumPy%20Arrays.ipynb)
@@ -424,6 +426,8 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 ***
 <a name="googleDevelopersMachineLearning"></a>
 #### [Google Developers] Machine Learning Crash Course with TensorFlow APIs
+
+[Link to the course](https://developers.google.com/machine-learning/crash-course/)
 
 * **Descending into ML**
 	* [[Check Your Understanding] Descending into ML](https://github.com/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Crash%20Course%20with%20TensorFlow%20APIs%20Google%20Developers/Descending%20into%20ML/%5BCheck%20Your%20Understanding%5D%20Descending%20into%20ML.pdf)
