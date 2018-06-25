@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cat and Dog CNN</title>
+    <style>
+        h1 {
+            font-size:30px;
+            font-family: Bebas Neue;
+        }
+
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+    </style>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+</head>
+<body>    
+    <h1>Prediction</h1>    
+    <img id="src-image" src=""/><br>
+    <input id="selector" type="file">    
+    <button id="predict-button">Predict</button>
+    <p>Our Model says: <span id="prediction" style="font-style: italic;"></span></p>
+       
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        let base64Image;
+        $("#selector").change(function() {
+            let reader = new FileReader();
+            reader.onload = function(e) {
+                let dataURL = reader.result;
+                $('#src-image').attr("src", dataURL);
+                console.log(base64Image)
+                base64Image = dataURL.replace("data:image/png;base64,","");
+                console.log(base64Image);
+            }
+            reader.readAsDataURL($("#selector")[0].files[0]);
+            $("#prediction").text("");
+        });
+        
+        $("#predict-button").click(function(){
+            let message = {
+                image: base64Image
+            }
+            console.log(message);
+            $.post("http://127.0.0.1:5000/predict", JSON.stringify(message), function(response){
+                console.log(parseInt(response.prediction.category));
+                if (parseInt(response.prediction.category) == 1) {
+                    var txt = 'It\'s a Dog.';
+                }
+                else if(parseInt(response.prediction.category) == 0){
+                    var txt = 'It\'s a Cat.';
+                }
+                else{
+                    var txt = 'It can\'t predict';
+                }
+                $("#prediction").text(txt);
+                console.log(response);
+            });
+        });       
+    </script>
+</body>
+</html>
