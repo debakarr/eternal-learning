@@ -110,5 +110,5 @@ Also we have,
 
 ### Grammar, Language, Automata
 ***
-![img/1.1.png]
+![](img/1.1.png)
 
