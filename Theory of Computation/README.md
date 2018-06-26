@@ -82,3 +82,24 @@ Strings are basically denoted by Capital Letter (English), usaually W.
 	That's equals to 11.
 
 	This can be calculated by **n\*(n+1)/2 + 1**, where |W| = n
+
+### Kleene Closure
+***
+Denoted by Σ<sup>\*</sup>. The set Σ<sup>\*</sup> is the infinite set of all possible strings of all possible lengths over Σ including ϵ.
+
+Let Σ = {a, b}
+
+Now,
+Σ<sup>0</sup> = {ϵ}
+Σ<sup>1</sup> = {a, b}
+Σ<sup>2</sup> = {aa, ab, ba, bb}
+:
+:
+Σ<sup>k</sup> = {W | |W| = k}
+:
+:
+Σ<sup>∞</sup> = {W | |W| = ∞}
+
+Union of all these sets is Σ<sup>\*</sup>.
+
+### 
