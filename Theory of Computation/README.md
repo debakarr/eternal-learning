@@ -112,3 +112,77 @@ Also we have,
 ***
 ![](img/1.1.png)
 
+### Finite Automata
+***
+![](img/1.2.png)
+
+### Deterministic Finite Automata
+***
+
+DFA = {Q, q<sub>0</sub>, ∑, F, δ}
+
+Q : Finite set of states.
+
+* It is represented by circle. It is always require to be non-empty.
+* We call it finite because we don't use any external memory to remember something. We change state to remember something(symbol).
+
+q<sub>0</sub> : Initial state.
+
+* Every finite automata will always have only 1 Initial state.
+* It can be named anything apart from q<sub>0</sub>.
+* It have an incoming arrow comming from nowhere.
+
+∑ : set of Input Symbols.
+
+* You require at least 1 symbol. 
+* It cannot be infinite.
+
+F : set of Final States.
+
+* A DFA can have more than one final state.
+* There can also be a DFA with no Final state. In that case it accept empty langauge.
+* Every state can be a Final state. In that case the DFA accept Universal Language.
+* It is denoted by double circle.
+
+δ : Transition Function.
+
+It is define as δ: Qx∑->Q
+
+It implies that on some state in set Q if we have some symbol from set ∑, then we transit to some other state present in Q.
+
+Let's take an example.
+
+A DFA which accepts string starting with **a**.
+
+Q = {A, B, C}
+
+q<sub>0</sub> = A
+
+∑ = {a, b} 
+
+F = {B}
+
+δ : 
+Here we have trasitions:
+* For **A** getting **a** we go to **B**.
+* For **A** getting **b** we go to **C**.
+* For **B** getting **a**, **b** we go to **B**.
+* For **C** getting **a**, **b** we go to **C**.
+
+The state diagram of the following is:
+
+![](img/2.1.png)
+
+DFA -> **For every state for every symbol we must have only one transition.**
+
+We can also draw a transition table:
+
+| State(↓)/Symbols(→) | a | b |
+|:-------------:|:-------------:|:-------------:|
+| A | B | C |
+| B | B | B |
+| C | C | C | 
+
+If for any string The machine ends on a finale state then that string is accepted.
+
+You can play arround with this [here](http://ivanzuzak.info/noam/webapps/fsm_simulator/).
