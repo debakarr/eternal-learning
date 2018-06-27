@@ -91,13 +91,21 @@ Let Σ = {a, b}
 
 Now,
 Σ<sup>0</sup> = {ϵ}
+
 Σ<sup>1</sup> = {a, b}
+
 Σ<sup>2</sup> = {aa, ab, ba, bb}
+
 :
+
 :
+
 Σ<sup>k</sup> = {W | |W| = k}
+
 :
+
 :
+
 Σ<sup>∞</sup> = {W | |W| = ∞}
 
 Union of all these sets is Σ<sup>\*</sup>.
