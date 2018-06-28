@@ -210,15 +210,15 @@ You can play arround with this [here](http://ivanzuzak.info/noam/webapps/fsm_sim
 
 	Smallest string possible is 'a'. Draw a state diagram which accepts 'a'.
 
-	![](3.1.png)
+	![](img/3.1.png)
 
 	Now complete the machine. We need to have a transition for 'b' from state A. But every string which starts with 'b' should be rejected so Draw a dead state for the same. And for dead state C we keep on looping on recieving 'a' and 'b' as string starts with 'b' should be rejected.
 
-	![](3.2.png)
+	![](img/3.2.png)
 
 	Now we need to have transition for 'a' and 'b' from B. Since after 'a' we can have any number of combination of 'a' and 'b', therefore we can loop on B (Also it's a final state).
 
-	![](3.3.png)
+	![](img/3.3.png)
 
 	2. *W = 'ba'*
 
@@ -226,21 +226,21 @@ You can play arround with this [here](http://ivanzuzak.info/noam/webapps/fsm_sim
 
 	Smallest string possible is 'ba'. Draw a state diagram which accepts 'ba'.
 
-	![](3.4.png)
+	![](img/3.4.png)
 
 	Now complete the machine. We need to have a transition for 'a' from state A. But every string which starts with 'a' should be rejected so Draw a dead state for the same. ALso we need a transition for 'b' from state B. Now if string starts with 'bb' it should be rejected hence the transition of 'b' from B will be in dead state.
 
-	![](3.5.png)
+	![](img/3.5.png)
 
 	Now to just complete the machine we have transition for 'a' and 'b' from state C (final state) to itself.
 
-	![](3.6.png)
+	![](img/3.6.png)
 
 	3. *W = 'abb'*
 
 	DFA for the language will be:
 
-	![](3.7.png)
+	![](img/3.7.png)
 
 	**NUMBER OF STATES IN DFA STARTING WITH A SUBSTRING OF LENGTH 'n' IS 'n+2'**
 
