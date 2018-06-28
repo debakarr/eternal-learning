@@ -203,7 +203,7 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	The way to design MDFA starting with a string is:
 	* Take the **smallest string possible** and draw the state diagram.
 	* After that make the machine **complete**. For every string that is never going to get accepted we have to have a **dead state** for the same.
-
+***
 	1. *W = 'a'*
 
 	The language would be L = {a, aa, ab, aaa, ...}
@@ -219,7 +219,7 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	Now we need to have transition for 'a' and 'b' from B. Since after 'a' we can have any number of combination of 'a' and 'b', therefore we can loop on B (Also it's a final state).
 
 	![](img/3.3.png)
-
+***
 	2. *W = 'ba'*
 
 	The language would be L = {ba, baa, bab, baaa, ...}
@@ -235,7 +235,7 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	Now to just complete the machine we have transition for 'a' and 'b' from state C (final state) to itself.
 
 	![](img/3.6.png)
-
+***
 	3. *W = 'abb'*
 
 	DFA for the language will be:
@@ -246,13 +246,14 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 
 	i.e. A DFA starting with substring W where |W| = n,
 	number of states = n + 2 
+***
 
 * **Design a MDFA over ∑ = {a, b} such that every string accepted must ends with W**
 
 	The way to design MDFA starting with a string is:
 	* Take the **smallest string possible** and draw the state diagram.
 	* After that make the machine **complete**. Here we don't have any dead state. All we do is go back or loop in the same state.
-
+***
 	1. *W = 'bb'*
 
 	The language would be L = {bb, abb, bbb, abbb, aabb, ...}
@@ -274,7 +275,7 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	![](img/4.4.png)
 
 	Similarly we can design other DFA.
-
+***
 	2. *W = 'ab'*
 
 	The language would be L = {ab, aab, bab, abab, aaab, ...}
@@ -298,7 +299,7 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	Finally if we have 'a' on C we can just go back 1 step i.e. to state B. since then we have a chance of getting 'b', which is followed by the 'a' on C. Therefore that string ends with 'ab'.
 
 	![](img/4.9.png)
-
+***
 	3. *W = 'bab'*
 
 	We can similarly draw state diagram for the following language:
@@ -313,3 +314,4 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	number of states = n + 1
 
 	This is because in this case we don't require a dead state. 
+***
