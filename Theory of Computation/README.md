@@ -194,3 +194,55 @@ We can also draw a transition table:
 If for any string The machine ends on a finale state then that string is accepted.
 
 You can play arround with this [here](http://ivanzuzak.info/noam/webapps/fsm_simulator/).
+
+### DFA Designing
+***
+
+* **Design a MDFA over ∑ = {a, b} such that every string accepted must start with W**
+
+	The way to design MDFA starting with a string is:
+	* Take the **smallest string possible** and draw the state diagram.
+	* After that make the machine **complete**. For every string that is never going to get accepted we have to have a **dead state** for the same.
+
+	1. *W = 'a'*
+
+	The language would be L = {a, aa, ab, aaa, ...}
+
+	Smallest string possible is 'a'. Draw a state diagram which accepts 'a'.
+
+	![](3.1.png)
+
+	Now complete the machine. We need to have a transition for 'b' from state A. But every string which starts with 'b' should be rejected so Draw a dead state for the same. And for dead state C we keep on looping on recieving 'a' and 'b' as string starts with 'b' should be rejected.
+
+	![](3.2.png)
+
+	Now we need to have transition for 'a' and 'b' from B. Since after 'a' we can have any number of combination of 'a' and 'b', therefore we can loop on B (Also it's a final state).
+
+	![](3.3.png)
+
+	2. *W = 'ba'*
+
+	The language would be L = {ba, baa, bab, baaa, ...}
+
+	Smallest string possible is 'ba'. Draw a state diagram which accepts 'ba'.
+
+	![](3.4.png)
+
+	Now complete the machine. We need to have a transition for 'a' from state A. But every string which starts with 'a' should be rejected so Draw a dead state for the same. ALso we need a transition for 'b' from state B. Now if string starts with 'bb' it should be rejected hence the transition of 'b' from B will be in dead state.
+
+	![](3.5.png)
+
+	Now to just complete the machine we have transition for 'a' and 'b' from state C (final state) to itself.
+
+	![](3.6.png)
+
+	3. *W = 'abb'*
+
+	DFA for the language will be:
+
+	![](3.7.png)
+
+	**NUMBER OF STATES IN DFA STARTING WITH A SUBSTRING OF LENGTH 'n' IS 'n+2'**
+
+	i.e. A DFA starting with substring W where |W| = n,
+	number of states = n + 2 
