@@ -193,7 +193,7 @@ We can also draw a transition table:
 
 If for any string The machine ends on a finale state then that string is accepted.
 
-You can play arround with this [here](http://ivanzuzak.info/noam/webapps/fsm_simulator/).
+You can play arround with this [here](http://madebyevan.com/fsm/).
 
 ### DFA Designing
 ***
@@ -246,3 +246,70 @@ You can play arround with this [here](http://ivanzuzak.info/noam/webapps/fsm_sim
 
 	i.e. A DFA starting with substring W where |W| = n,
 	number of states = n + 2 
+
+* **Design a MDFA over ∑ = {a, b} such that every string accepted must ends with W**
+
+	The way to design MDFA starting with a string is:
+	* Take the **smallest string possible** and draw the state diagram.
+	* After that make the machine **complete**. Here we don't have any dead state. All we do is go back or loop in the same state.
+
+	1. *W = 'bb'*
+
+	The language would be L = {bb, abb, bbb, abbb, aabb, ...}
+
+	Smallest string possible is 'bb'. Draw a state diagram which accepts 'bb'.
+
+	![](img/4.1.png)
+
+	Now complete the machine. We need to have a transition for 'a' from state A. Now it's possible to have any number of 'a' followed by 'bb'. So we can loop on A (It should be note that A is the state which counts 'bb').
+
+	![](img/4.2.png)
+
+	If we have 'a' on B we have to go back to state A since there is a possibility of having 'bb' followed after that.
+
+	![](img/4.3.png)
+
+	Again if we have 'b' in C we could just loop at C and if we have 'a' on C we have to go back to A (A counts 'bb'), since there is a possibility of having 'bb' following that. If we have 'b' at C we can just loop in C.
+
+	![](img/4.4.png)
+
+	Similarly we can design other DFA.
+
+	2. *W = 'ab'*
+
+	The language would be L = {ab, aab, bab, abab, aaab, ...}
+
+	Smallest string possible is 'ab'. Draw a state diagram which accepts 'ab'.
+
+	![](img/4.5.png)
+
+	Now complete the machine. We need to have a transition for 'b' from state A. Now it's possible to have any number of 'b' followed by 'ab'. So we can loop on A (It should be note that A is the state which counts 'ab').
+
+	![](img/4.6.png)
+
+	If we have 'a' on B we can loop at B because after that we can transit with one b and have a string which ends with 'ab'.
+
+	![](img/4.7.png)
+
+	If we have 'b' on C we have to go back to A since the pattern is destroyed (eg. abb).
+
+	![](img/4.8.png)
+
+	Finally if we have 'a' on C we can just go back 1 step i.e. to state B. since then we have a chance of getting 'b', which is followed by the 'a' on C. Therefore that string ends with 'ab'.
+
+	![](img/4.9.png)
+
+	3. *W = 'bab'*
+
+	We can similarly draw state diagram for the following language:
+
+	L = {bab, abab, bbab, aabab, ...}
+
+	![](img/4.10.png)
+
+	**NUMBER OF STATES IN DFA ENDING WITH A SUBSTRING OF LENGTH 'n' IS 'n+1'**
+
+	i.e. A DFA ending with substring W where |W| = n,
+	number of states = n + 1
+
+	This is because in this case we don't require a dead state. 
