@@ -329,3 +329,73 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	This is because in this case we don't require a dead state. 
 	
 	***
+
+* **Design a MDFA over ∑ = {a, b} such that every string accepted must contains a substring W**
+
+	The way to design MDFA starting with a string is:
+	* Take the **smallest string possible** and draw the state diagram.
+	* After that make the machine **complete**. Here we don't have any dead state. All we do is go back or loop in the same state.
+
+	1. *W = 'bb'*
+
+	The language would be L = {bb, abb, bbba, abba, aabba, ...}
+
+	Smallest string possible is 'bb'. Draw a state diagram which accepts 'bb'.
+
+	![](img/4.1.png)
+
+	Now complete the machine. We need to have a transition for 'a' from state A. Now it's possible to have any number of 'a' followed by 'bb'. So we can loop on A (It should be note that A is the state which counts 'bb').
+
+	![](img/4.2.png)
+
+	If we have 'a' on B we have to go back to state A since there is a possibility of having 'bb' followed after that.
+
+	![](img/4.3.png)
+
+	Finally when we have made sure we have 'bb' (since if we are in C, we have encounter 'bb'), we can just loop in C if we have 'a' or 'c'.
+
+	![](img/4.11.png)
+
+	Similarly we can design other DFA.
+
+	***
+	
+	2. *W = 'ab'*
+
+	The language would be L = {ab, aabb, babb, ababa, aaaba, ...}
+
+	Smallest string possible is 'ab'. Draw a state diagram which accepts 'ab'.
+
+	![](img/4.5.png)
+
+	Now complete the machine. We need to have a transition for 'b' from state A. Now it's possible to have any number of 'b' followed by 'ab'. So we can loop on A (It should be note that A is the state which counts 'ab').
+
+	![](img/4.6.png)
+
+	If we have 'a' on B we can loop at B because after that we can transit with one b and have a string which ends with 'ab'.
+
+	![](img/4.7.png)
+
+	Since when we reached the final state, it is sure that we have encounted the substring 'ab'. Therefore we can just loop on final state on having either 'a' or 'b'.
+
+	![](img/4.12.png)
+
+	***
+	
+	3. *W = 'bab'*
+
+	We can similarly draw state diagram for the following language:
+
+	L = {bab, ababa, bbabb, aababb, ...}
+
+	![](img/4.13.png)
+
+	**NUMBER OF STATES IN DFA CONTAINING A SUBSTRING OF LENGTH 'n' IS 'n+1'**
+
+	i.e. A DFA containing a substring W where |W| = n,
+	number of states = n + 1
+
+	This is because in this case we don't require a dead state.
+	Also it's worth noting that once we reached the final state we can just loop at getting any symbols in the alphabet set.
+	
+	***
