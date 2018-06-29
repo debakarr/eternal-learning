@@ -432,5 +432,24 @@ If we have a substring W such that |W| = n, then Number of
 
 	***
 
+* **Design a MDFA over ∑ = {a, b} such that every string starts and ends with same symbols**
 
+	NOTE: We have two symbol 'a' and 'b'.
 
+	In this case we **require more than one final state**.
+
+	The language would be L = {a, b, aa, aba, bab, abaa, bbab, aaba, ...}
+
+	So the smallest string here is either a or b. That's why we need two final state.
+
+	The initial diagram may look like:
+
+	![](img/5.4.png)
+
+	Now for string starting and ending with a, we can use the same logic as we used previously and have an extra state which loops in 'b' until there is an 'a', and if there is any 'a', then it comes back to B.
+
+	![](img/5.5.png)
+
+	We can do the same thing for strings starting and ending with 'b'.
+
+	![](img/5.6.png)
