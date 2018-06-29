@@ -401,10 +401,36 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	***
 
 * **Containing Substring Summary**
-
+***
 If we have a substring W such that |W| = n, then Number of 
 
 | Starting (i.e. Wx) | Ending (i.e. xW) | Containing (i.e. xWx) |
 | :-----------: | :-----------: | -----------: |
 | Number of States →| n + 2 | n + 1 | n + 1 |
+
+***
+
+* **Design a MDFA over ∑ = {a, b} such that every string starts and ends with 'a'**
+***
+	The language would be L = {a, aa, aba, abaa, aaba, ...}
+
+	Smallest string possible is 'a'. Draw a state diagram which accepts 'a'.
+
+	![](img/5.1.png)
+
+	Now we have to complete the DFA. We know that if the string starts with 'b', then it should be rejected. So if we have 'b' on A, then we have to transit to a dead state.
+
+	![](img/5.2.png)
+
+	One thing that should be noted here is **we should never come back to a state from which we have a dead state.** That is whatever the case, we should never come back to state A.
+
+	If we get a 'b' on B, then we have to go to a new state (why? read over bold text). In the new state we could just loop until we get an 'a', in which we have to come back to B again.
+
+	So the final DFA is:
+
+	![](img/5.3.png)
+
+	***
+
+
 
