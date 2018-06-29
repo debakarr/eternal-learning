@@ -453,3 +453,18 @@ If we have a substring W such that |W| = n, then Number of
 	We can do the same thing for strings starting and ending with 'b'.
 
 	![](img/5.6.png)
+***
+
+* **Design a MDFA over ∑ = {a, b} such that every string starts and ends with different symbols**
+***
+	The language would be L = {ab, ba, aab, abab, baba, abaab, bbaba, aabab, ...}
+
+	Here the smallest strings are 'ab' and 'ba'.
+
+	So we can start with the initial state and create DFA that accept ab on one part and then DFA that accepts ba.
+
+	Then we can just complete the machine.
+
+	![](img/5.7.png)
+***
+
