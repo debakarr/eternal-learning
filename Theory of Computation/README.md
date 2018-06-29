@@ -399,3 +399,12 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	Also it's worth noting that once we reached the final state we can just loop at getting any symbols in the alphabet set.
 	
 	***
+
+* **Containing Substring Summary**
+
+If we have a substring W such that |W| = n, then Number of 
+
+| Starting (i.e. Wx) | Ending (i.e. xW) | Containing (i.e. xWx) |
+| :-----------: | :-----------: | -----------: |
+| Number of States →| n + 2 | n + 1 | n + 1 |
+
