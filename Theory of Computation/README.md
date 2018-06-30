@@ -704,13 +704,7 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 
 	Total number of transitions possible
 
-	| <- number of symbols -> ||||||
-	| | a1 | a2 | ... | an | |
-	| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-	| A1 | ... | ... | ... | ... | ↑ |
-	| A2 | ... | ... | ... | ... | number of states|
-	| ... | ... | ... | ... | ... | ... |
-	| A3 | ... | ... | ... | ... | ↓ |
+	![](img/7.2.png)
 
 	(number od states)x(number of symbols) = m<sup>mxn</sup>
 
