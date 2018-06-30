@@ -588,3 +588,36 @@ If we have a substring W such that |W| = n, then Number of
 
 	***
 
+* **Design a MDFA over ∑ = {a, b} such that every string accepted must be**
+
+	***
+
+	1. |W| = 2(mod 3)
+
+	**r(mod n)** means if we divide something with **n** then the remainder must be **r**.
+
+	So 2(mod 3) means we can have a length of string as 2, 5, 8, 11, ...
+
+	The trick is to draw the **number of state equal to n**. Here we will have 3 states, and from each state we will have transition to another state on 'a' or 'b'.
+
+	This is because we can have only 3 remainder when something is divided to 3 (i.e. 0, 1, and 2). These three remainder can be represented using 3 states.
+
+	Finally we can make the one with remainder 2 as final state.
+
+	![](img/6.9.png)
+
+	Similarly we can draw state diagram for other.
+
+	2. |W| = 1(mod 4)
+
+	![](img/6.10.png)
+
+	3. |W|<sub>a</sub> = 2(mod 4)
+
+	This is a bit different as we have to only consider 'a'. So what we can do is just loop everytime we get a 'b', since string is independedent of the number of 'b'.
+
+	![](img/6.11.png)
+
+	***
+
+
