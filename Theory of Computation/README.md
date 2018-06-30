@@ -468,3 +468,25 @@ If we have a substring W such that |W| = n, then Number of
 	![](img/5.7.png)
 ***
 
+* **Design a MDFA over ∑ = {a, b} such that every string starts with 'aa' or 'bb'**
+***
+
+	For this first we need to accept smallest strings i.e. 'aa' and 'bb'.
+
+	![](img/5.8.png)
+
+	After this we can complete the DFA. If we get 'b' on B then we have to go to a dead state.
+
+	Also same can be said for 'a' in C.
+
+	After reaching the final state we can loop for 'a' and 'b' as we need the machine to accept the strings which *starts* with 'aa' or 'bb'.
+
+	![](img/5.9.png)
+
+	This DFA can be minimized further. Instead of having two dead state (F and G) we could merge the two dead state and have a single dead state.
+
+	Also since both are final state have same characteristics (loop at 'a' or 'b'), therefore we can merge the final states too.
+
+	![](img/5.10.png)
+
+***
