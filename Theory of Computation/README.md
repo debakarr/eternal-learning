@@ -490,3 +490,15 @@ If we have a substring W such that |W| = n, then Number of
 	![](img/5.10.png)
 
 ***
+
+* **Design a MDFA over ∑ = {a, b} such that every string ends with 'aa' or 'bb'**
+***
+
+	The steps are actually same as above.
+
+	The final DFA will look like:
+
+	![](img/5.11.png)
+
+***
+
