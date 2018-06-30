@@ -401,14 +401,14 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	***
 
 * **Containing Substring Summary**
-***
-If we have a substring W such that |W| = n, then Number of 
+	***
+	If we have a substring W such that |W| = n, then Number of 
 
-|| Starting (i.e. Wx) | Ending (i.e. xW) | Containing (i.e. xWx) |
-| :-----------: | :-----------: | :-----------: | -----------: |
-| Number of States →| n + 2 | n + 1 | n + 1 |
+	|| Starting (i.e. Wx) | Ending (i.e. xW) | Containing (i.e. xWx) |
+	| :-----------: | :-----------: | :-----------: | -----------: |
+	| Number of States →| n + 2 | n + 1 | n + 1 |
 
-***
+	***
 
 * **Design a MDFA over ∑ = {a, b} such that every string starts and ends with 'a'**
 
@@ -620,4 +620,35 @@ If we have a substring W such that |W| = n, then Number of
 
 	***
 
+* **Design a MDFA over ∑ = {a, b} such that every string accepted must contain odd occurance of substring 'ab'**
+
+	***
+
+	For odd number |W| = 1(mod 2)
+
+	For even number |W| = 0(mod 2)
+
+	but here we want |W|<sub>ab</sub> = 1(mod 2)
+
+	What we ant is something like this:
+
+	![](img/6.12.png)
+
+	But since we know:
+
+	δ: Qx∑->Q
+
+	and here ∑ can be only one symbol. So we can have this:
+
+	![](img/6.13.png)
+
+	Now all we need is to complete the DFA.
+
+	![](img/6.14.png)
+
+	Still it is not complete as for string say 'aba', there is an odd occurence of 'ab', but in our DFA the string is not accepted. To make this correct what we have to do is make D as a final state. As when we come to B, we have one odd occurence of 'ab', but until we reach A again we still have the odd occurence. So the final DFA is:
+
+	![](img/6.15.png)
+
+	***
 
