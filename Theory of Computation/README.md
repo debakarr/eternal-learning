@@ -548,6 +548,6 @@ If we have a substring W such that |W| = n, then Number of
 
 	This one is also self explainatory. But instead of having a dead state we will just loop in the final state as any string of length 2 or greater is acceptable.
 
-	![](img.6.3.png)
+	![](img/6.3.png)
 
 	***
