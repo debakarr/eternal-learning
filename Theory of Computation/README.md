@@ -404,14 +404,15 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 ***
 If we have a substring W such that |W| = n, then Number of 
 
-| Starting (i.e. Wx) | Ending (i.e. xW) | Containing (i.e. xWx) |
-| :-----------: | :-----------: | -----------: |
+|| Starting (i.e. Wx) | Ending (i.e. xW) | Containing (i.e. xWx) |
+| :-----------: | :-----------: | :-----------: | -----------: |
 | Number of States →| n + 2 | n + 1 | n + 1 |
 
 ***
 
 * **Design a MDFA over ∑ = {a, b} such that every string starts and ends with 'a'**
-***
+
+	***
 	The language would be L = {a, aa, aba, abaa, aaba, ...}
 
 	Smallest string possible is 'a'. Draw a state diagram which accepts 'a'.
@@ -453,10 +454,12 @@ If we have a substring W such that |W| = n, then Number of
 	We can do the same thing for strings starting and ending with 'b'.
 
 	![](img/5.6.png)
-***
+
+	***
 
 * **Design a MDFA over ∑ = {a, b} such that every string starts and ends with different symbols**
-***
+
+	***
 	The language would be L = {ab, ba, aab, abab, baba, abaab, bbaba, aabab, ...}
 
 	Here the smallest strings are 'ab' and 'ba'.
@@ -466,10 +469,12 @@ If we have a substring W such that |W| = n, then Number of
 	Then we can just complete the machine.
 
 	![](img/5.7.png)
-***
+	
+	***
 
 * **Design a MDFA over ∑ = {a, b} such that every string starts with 'aa' or 'bb'**
-***
+	
+	***
 
 	For this first we need to accept smallest strings i.e. 'aa' and 'bb'.
 
@@ -489,10 +494,11 @@ If we have a substring W such that |W| = n, then Number of
 
 	![](img/5.10.png)
 
-***
+	***
 
 * **Design a MDFA over ∑ = {a, b} such that every string ends with 'aa' or 'bb'**
-***
+
+	***
 
 	The steps are actually same as above.
 
@@ -500,9 +506,11 @@ If we have a substring W such that |W| = n, then Number of
 
 	![](img/5.11.png)
 
-***
+	***
 
 * **Design a MDFA over ∑ = {a, b} such that every string accepted must be**
+	
+	***
 
 	1. |W| = 2
 
@@ -542,4 +550,4 @@ If we have a substring W such that |W| = n, then Number of
 
 	![](img.6.3.png)
 
-***
+	***
