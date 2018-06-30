@@ -502,3 +502,44 @@ If we have a substring W such that |W| = n, then Number of
 
 ***
 
+* **Design a MDFA over ∑ = {a, b} such that every string accepted must be**
+
+	1. |W| = 2
+
+	In this case we are not concert about the symbol. We just want to accept string which are of length 2.
+
+	Here the language is , L ={aa, ab, ba, bb}
+
+	So in the initial state we can go to next state irrespectively whether we have 'a' or 'b'
+
+	Also from second state we can tarnsit on either getting 'a' or 'b'.
+
+	The third state is final state, but if we recieve any other symbol, that means the string is greater than 2 in length, hence we need to reject it and for that we need a dead state.
+
+	The final DFA looks like this:
+
+	![](img/6.1.png)
+
+	***
+
+	2. |W| <= 2
+
+	Here the language is , L = {ϵ, a, b, aa, ab, ba, bb}
+
+	Here we have to accept all the string of length less than or equal to 2 (it includes null string).
+
+	So the DFA will look similar to the previous one but with the 1st, 2nd and 3rd state as final state.
+
+	![](img/6.2.png)
+
+	***
+
+	3. |W| >= 2
+
+	Here the language is , L = {aa, ab, ba, bb, aaa, aab, ...}
+
+	This one is also self explainatory. But instead of having a dead state we will just loop in the final state as any string of length 2 or greater is acceptable.
+
+	![](img.6.3.png)
+
+***
