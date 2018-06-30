@@ -551,3 +551,40 @@ If we have a substring W such that |W| = n, then Number of
 	![](img/6.3.png)
 
 	***
+
+* **Design a MDFA over ∑ = {a, b} such that every string accepted must be**
+
+	***
+
+	1. |W|<sub>a</sub> = 2
+
+	It say length of a is 2. That means the number of 'a' must be two (not needed consicutive). We can have any number of b.
+
+	Here the language is , L ={aa, aab, baa, baab, ...}
+
+	The smallest string possible is 'aa'. So first let's draw a states for the same.
+
+	![](img/6.4.png)
+
+	If we have 'b' at A, B or C we can just loop. This is because it doesn't matter how many 'b' we have.
+
+	![](img/6.5.png)
+
+	Now the only case is if we have another 'a' at C then we have to go to a dead state as then number of 'a' at that case is greater than 2.
+
+	![](img/6.6.png)
+
+	2. |W|<sub>a</sub> <= 2
+
+	Here the only thing we need to  consider is we can accept 0, 1 or 2 'a'. Therefore the 1st and 2nd state will be final state too.
+
+	![](img/6.7.png)
+
+	3. |W|<sub>a</sub> >= 2
+
+	Here we can just loop in final state as when we are final state we have encounter 2 a's already.
+
+	![](img/6.8.png)
+
+	***
+
