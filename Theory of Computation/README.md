@@ -652,3 +652,66 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 
 	***
 
+* **How many different dfa can be designed with fixed initial state over ∑ = {a, b} and number of states is two**
+
+	***
+
+	If we carefully look we have 5 parameters in DFA
+
+	DFA = {Q, q<sub>0</sub>, ∑, F, δ}
+
+	In given question,
+
+	Q -> fixed number of state i.e. we cannot change this.
+
+	q<sub>0</sub> -> fixed initial state i.e. we cannot change this.
+
+	∑ -> fixed number of symbols i.e. we cannot change this.
+
+	The only two paramaeter in the domain which we can tweek is F and δ.
+
+	We can have 4 combinations of final states:
+
+	![](img/7.1.png)
+
+	Also for each combination the choice for transition function is:
+
+	| | a | b |
+	| :---: | :---: | :---: |
+	| A | A, B | A, B |
+	| B | A, B | A, B|
+
+	Therefore the number of combination are:
+
+	| | a | b |
+	| :---: | :---: | :---: |
+	| A | 2 | 2 |
+	| B | 2 | 2|
+
+	**2x2x2x2 = 16**.
+
+	Also we have 4 combinations for final state.
+
+	Therefore total number of DFA which can be design = **4x16 = 64**
+
+	The general formula:
+
+	Let, |Q| = m
+
+	|∑| = n
+
+	So total number of final state = 2<sup>m</sup>
+
+	Total number of transitions possible
+
+	| <- number of symbols -> | |
+	| | a1 | a2 | ... | an | |
+	| :---: | :---: | :---: | :---: | :---: |
+	| A1 | ... | ... | ... | ... | ↑ |
+	| A2 | ... | ... | ... | ... | number of states|
+	| ... | ... | ... | ... | ... | ... |
+	| A3 | ... | ... | ... | ... | ↓ |
+
+	(number od states)x(number of symbols) = m<sup>mxn</sup>
+
+	Therefore total number of DFA possible = 2<sup>m</sup>xm<sup>mxn</sup>
