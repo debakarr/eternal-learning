@@ -704,9 +704,9 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 
 	Total number of transitions possible
 
-	| <- number of symbols -> | |
+	| <- number of symbols -> |
 	| | a1 | a2 | ... | an | |
-	| :---: | :---: | :---: | :---: | :---: |
+	| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 	| A1 | ... | ... | ... | ... | ↑ |
 	| A2 | ... | ... | ... | ... | number of states|
 	| ... | ... | ... | ... | ... | ... |
