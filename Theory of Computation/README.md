@@ -709,3 +709,50 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	(number od states)x(number of symbols) = m<sup>mxn</sup>
 
 	Therefore total number of DFA possible = 2<sup>m</sup>xm<sup>mxn</sup>
+
+	***
+
+* **In above 64 DFA, how many will accept ∑<sup>\*</sup>**
+
+	***
+
+	The one where both states are final state 
+
+	![](img/7.4.png)
+
+	will accept the universal language.
+
+	The one where none of the state are final state 
+
+	![](img/7.3.png)
+
+	will be rejected.
+
+	The one where the initial state is not a final state 
+
+	![](img/7.5.png)
+
+	will be rejected. Because null string is not accepted.
+
+	The one where the initial state is a final state,
+
+	![](img/7.6.png)
+
+	if we make the second state unreachable state then every string will halt on A and thus we have a DFA that accepts ∑<sup>\*</sup>.
+
+	There are following possibilities:
+
+	| | a | b |
+	| :---: | :---: | :---: |
+	| A | A | A |
+	| B | 2 | 2|
+
+	or if we draw:
+
+	![](img/7.7.png)
+
+	Therefore the total number of possibiities = 4 + 16 = 20
+
+	
+
+
