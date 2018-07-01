@@ -753,6 +753,40 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 
 	Therefore the total number of possibiities = 4 + 16 = 20
 
-	
+* **In above 64 DFA, how many will accept empty language**
 
+	null string does not belongs to empty language. An empty language does not contains anything and the DFA for that accept only ϕ.
+	***
 
+	The one where both states are final state 
+
+	![](img/7.4.png)
+
+	will be rejected. As it accept all strings.
+
+	The one where none of the state are final state 
+
+	![](img/7.3.png)
+
+	will accepted as it does not even accepts ϵ.
+
+	The one where the initial state is a final state.
+
+	![](img/7.6.png)
+
+	will be rejected as it accepts ϵ.
+
+	The one where the initial state is not a final state 
+
+	![](img/7.5.png)
+
+	will be accepted for some case. Where we do not go to B.
+
+	There are following possibilities:
+
+	| | a | b |
+	| :---: | :---: | :---: |
+	| A | A | A |
+	| B | 2 | 2|
+
+	Therefore the total number of possibiities = 4 + 16 = 20
