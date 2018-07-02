@@ -813,4 +813,32 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 
 	***
 
-	
+* **Design a DFA over an alphabet ∑ = {0, 1} such that it accepts all the strings where |W|<sub>0</sub> = 0(mod 2) i.e. even and |W|<sub>1</sub> = 1(mod 2) i.e. odd**
+
+	***
+
+	We can have 1 count vertically and 0 count horizontally.
+
+	![](img/8.2.png)
+
+	If we construct a DFA of only even 0:
+
+	![](img/8.3.png)
+
+	If we construct a DFA of only odd 1:
+
+	![](img/8.4.png)
+
+	Multiplying states of each one we see that we have 4 states (A+B)(C+D) = AC + AD + BC + BD
+
+	Now **A on 0 goes to B** and **C on 0 goes to C**, therefore **AC on 0 goes to BC**.
+
+	Similarly we can find for other three state and the final state diagram is 0.
+
+	![](img/8.5.png)
+
+	Since A is final state for even number of 0's and D is final state for odd number of 1's. Therefore we have AD as final state.
+
+	Another thing to be noted is that since in question we have **and** we only include that state which have both A and D. If we had **or** inbetween we have to include any state that contains A or D.
+
+	***
