@@ -790,3 +790,27 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	| B | 2 | 2|
 
 	Therefore the total number of possibiities = 4 + 16 = 20
+
+	***
+
+* **Design a DFA over an alphabet ∑ = {a, b} such that it accepts all the strings starting with 'ab'** *and* **|W| = 3 (mod 4)**
+
+	***
+
+	![](img/8.1.png)
+
+	Here we are designing based on 2 conditions we have learned. 
+
+	First is to design a DFA starting from a particular string. If string length is 'n', then DFA has 'n+2' states.
+
+	Second is to design a DFA of specific length. If length is 'm' then number of states are also 'm'.
+
+	When two conditions are me conbine the number of states is equal to one less than the states combine in the two conditions.
+
+	Here it, n+2+m-1 = n+m+1 = 2+4+1 = 7 states.
+
+	If we want a string starting with 'aabaa' and |W| = 2(mod 5), then total number of states required = 5 + 2 + 5 - 1 = 11.
+
+	***
+
+	
