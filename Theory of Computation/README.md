@@ -839,6 +839,20 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 
 	Since A is final state for even number of 0's and D is final state for odd number of 1's. Therefore we have AD as final state.
 
-	Another thing to be noted is that since in question we have **and** we only include that state which have both A and D. If we had **or** inbetween we have to include any state that contains A or D.
+	**NOTE: ince in question we have** *and* **we only include that state which have both A and D. If we had** *or* **inbetween we have to include any state that contains A or D.**
+
+	***
+
+* **Design a MDFA over ∑ = {a, b} such that every string accepted does not contains 'abb'**
+
+	For this what we have to do is first construct a DFA which accepts the string containing 'abb' as substring. 
+
+	![](img/9.1.png)
+
+	Then just complement all the final states and non-final states.
+
+	![](img/9.2.png)
+
+	**NOTE: Since DFA is complete, so we can complement it.**
 
 	***
