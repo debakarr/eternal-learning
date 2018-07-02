@@ -856,3 +856,34 @@ You can play arround with this [here](http://madebyevan.com/fsm/).
 	**NOTE: Since DFA is complete, so we can complement it.**
 
 	***
+
+
+### Minimization of DFA
+
+* Capability of the automata shoould be same but the state much be reduce.
+
+* There can be more than one DFA for a particular language.
+
+* If we have a regular language say RL1 and 3 DFA - DFA1, DFA2 and DFA3, then there exist a minimum DFA which can be obtain by reducing any of these 3 DFA and that **minimize DFA is unique**.
+
+![](img/mdfa.png)
+
+* If absence of a state affect the working (language acceptibility) of the DFA then that state is called **productive state**.
+
+* If presence or absence of a state does not affect the working of a DFA then that state is called **non-productive state**.
+
+	* From a state if you can't reach a final state whatsoever, then that state is called **dead state.**
+
+		* every machine don't have a dead state.
+
+		* a machine can have more than one dead state.
+
+		* but **to minimize the DFA we need to combine all dead state into one dead state**.
+
+	* If there is no path available to read a state then, that state is called a **unreachable state**.
+		* remove them directly
+
+	* two states (say A and B), are said to be **equal states**, if δ<sup>\*</sup>(A, x) goes to finals state and δ<sup>\*</sup>(B, x) goes to finals state, or if if δ<sup>\*</sup>(A, x) goes to non-finals state and δ<sup>\*</sup>(B, x) goes to non-finals state.
+		* combine all the equal state into one state.
+
+	![](img/states.png)
