@@ -58,6 +58,7 @@ if oldKey != None:
 ### Checking locally
 
 **[training@localhost code]** `head -20 purchases.txt | ./storeHighestSaleMapper.py | sort | ./storeHighestSaleReducer.py `
+```
 Austin 	469.63
 Boston 	483.82
 Buffalo 	25.38
@@ -75,10 +76,12 @@ San Diego 	260.65
 San Francisco 	214.05
 San Jose 	247.18
 Stockton 	0
+```
 
 ### Run the MapReduce job
 
 **[training@localhost code]** `hs storeHighestSaleMapper.py storeHighestSaleReducer.py myinput myoutput3`
+```
 packageJobJar: [storeHighestSaleMapper.py, storeHighestSaleReducer.py, /tmp/hadoop-training/hadoop-unjar4462345570275233869/] [] /tmp/streamjob5281220558292014941.jar tmpDir=null
 18/07/06 06:46:24 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
 18/07/06 06:46:24 WARN snappy.LoadSnappy: Snappy native library is available
@@ -107,6 +110,7 @@ packageJobJar: [storeHighestSaleMapper.py, storeHighestSaleReducer.py, /tmp/hado
 18/07/06 06:47:29 INFO streaming.StreamJob:  map 100%  reduce 100%
 18/07/06 06:47:31 INFO streaming.StreamJob: Job complete: job_201807060555_0003
 18/07/06 06:47:31 INFO streaming.StreamJob: Output: myoutput3
+```
 
 ### Checking list of file in output directory
 
@@ -121,6 +125,7 @@ drwxr-xr-x   - training supergroup          0 2018-07-06 06:46 myoutput3/_logs
 ### Checking content of output file
 
 **[training@localhost code]** `hadoop fs -cat myoutput3/part-00000`
+```
 Albuquerque 	499.98
 Anaheim 	499.98
 Anchorage 	499.99
@@ -135,7 +140,9 @@ Birmingham 	499.99
 Boise 	499.98
 Boston 	499.99
 Buffalo 	499.99
+```
 **Chandler 	499.98**
+```
 Charlotte 	499.98
 Chesapeake 	499.98
 Chicago 	499.99
@@ -198,7 +205,9 @@ Pittsburgh 	499.99
 Plano 	499.99
 Portland 	499.96
 Raleigh 	499.99
+```
 **Reno 	499.99**
+```
 Richmond 	499.96
 Riverside 	499.98
 Rochester 	499.99
@@ -217,10 +226,13 @@ St. Louis 	499.99
 St. Petersburg 	499.95
 Stockton 	499.98
 Tampa 	499.99
+```
 **Toledo 	499.98**
+```
 Tucson 	499.98
 Tulsa 	499.96
 Virginia Beach 	499.98
 Washington 	499.98
 Wichita 	499.97
 Winston–Salem 	499.98
+```

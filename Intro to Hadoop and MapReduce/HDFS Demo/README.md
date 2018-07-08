@@ -20,6 +20,7 @@ Found 1 items
 I can take a look at the last few lines of the file by saying, **hadoop fs -tail**, and then the filename, and that just displays the last few lines on the screen for me. 
 
 **[training@localhost data]** `hadoop fs -tail purchases.txt `
+```
 31	17:59	Norfolk	Toys	164.34	MasterCard
 2012-12-31	17:59	Chula Vista	Music	380.67	Visa
 2012-12-31	17:59	Hialeah	Toys	115.21	MasterCard
@@ -40,6 +41,7 @@ I can take a look at the last few lines of the file by saying, **hadoop fs -tail
 2012-12-31	17:59	Greensboro	Baby	277.27	Discover
 2012-12-31	17:59	Arlington	Women's Clothing	134.95	MasterCard
 2012-12-31	17:59	Corpus Christi	DVDs	441.61	Discover
+```
 
 There's also a `hadoop fs -cat`, which will display the entire contents of the file. There are plenty of other hadoop fs commands and as you'll probably have started to realize, they closely mirror standard UNIX file system commands. So, if I want to rename the file, for example, I can say **hadoop fs -mv**, which moves purchases.txt, in this case, to newname.txt. 
 
