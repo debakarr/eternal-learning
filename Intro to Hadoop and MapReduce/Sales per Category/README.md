@@ -58,6 +58,7 @@ if oldKey != None:
 ### Checking locally
 
 **[training@localhost code]** `head -20 purchases.txt | ./productMapper.py | sort | ./productReducer.py `
+```
 Baby 	309.16
 Cameras 	1268.17
 Children's Clothing 	235.63
@@ -70,10 +71,12 @@ Pet Supplies 	493.51
 Toys 	239.26
 Video Games 	93.01
 Women's Clothing 	853.21
+```
 
 ### Run the MapReduce job
 
 **[training@localhost code]** `hs productMapper.py productReducer.py myinput myoutput2`
+```
 packageJobJar: [productMapper.py, productReducer.py, /tmp/hadoop-training/hadoop-unjar5457240331668580390/] [] /tmp/streamjob6138608487494682313.jar tmpDir=null
 18/07/06 06:03:53 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
 18/07/06 06:03:53 WARN snappy.LoadSnappy: Snappy native library is available
@@ -102,6 +105,7 @@ packageJobJar: [productMapper.py, productReducer.py, /tmp/hadoop-training/hadoop
 18/07/06 06:05:00 INFO streaming.StreamJob:  map 100%  reduce 100%
 18/07/06 06:05:02 INFO streaming.StreamJob: Job complete: job_201807060555_0001
 18/07/06 06:05:02 INFO streaming.StreamJob: Output: myoutput2
+```
 
 ### Checking list of files in output directory
 
@@ -116,6 +120,7 @@ drwxr-xr-x   - training supergroup          0 2018-07-06 06:03 myoutput2/_logs
 ### Checking content of output file
 
 **[training@localhost code]** `hadoop fs -cat myoutput2/part-00000`
+```
 Baby 	57491808.44
 Books 	57450757.91
 CDs 	57410753.04
@@ -134,3 +139,4 @@ Sporting Goods 	57599085.89
 **Toys 	57463477.11**
 Video Games 	57513165.58
 Women's Clothing 	57434448.97
+```

@@ -46,6 +46,7 @@ if oldKey != None:
 Our mapper takes input from standard input. So, in order to test it, we can take few sample lines and pipe that into the mapper from `purchases.txt` file(Six fields, separated by tabs). You can see that the mapper outputs the results, just as expected.
 
 **[training@localhost code]** `head -20 purchases.txt`
+```
 2012-01-01  09:00 San Jose  Men's Clothing  214.05  Amex
 2012-01-01  09:00 Fort Worth  Women's Clothing  153.57  Visa
 2012-01-01  09:00 San Diego Music 66.08 Cash
@@ -66,8 +67,10 @@ Our mapper takes input from standard input. So, in order to test it, we can take
 2012-01-01  09:00 San Jose  Women's Clothing  215.82  Cash
 2012-01-01  09:00 Boston  Cameras 418.94  Amex
 2012-01-01  09:00 Houston Baby  309.16  Visa
+```
 
 **[training@localhost code]** `head -20 purchases.txt | ./mapper.py`
+```
 San Jose  214.05
 Fort Worth  153.57
 San Diego 66.08
@@ -88,12 +91,14 @@ Buffalo 483.82
 San Jose  215.82
 Boston  418.94
 Houston 309.16
+```
 
 If we have problems, we could just go back and edit the mapper until it works. It's really nice and fast to be able to do this without having to run a complete hadoop job every time during the development phase. 
 
 We can do a similar thing with the reducer. It's expecting a set of lines, each of which looks like the store name then a tab then the value. So, again, we can create a sample file which looks like that and pass it in to the reducer. But even nicer, we can test the entire pipeline. Remember that the mapper's output is sorted by the hadoop framework, and then passed to the reducer. So, we can simulate the entire thing on the Unix command line, like this. I take few lines from `purchases.txt`. I pipe it to the mapper. I then pass that to the Unix sort command, and pass that output to the reducer. When I run that, that simulates the entire map followed by shuffle and sort, followed by reduced phase, and as you can see, I've got the output from the reducer. 
 
 **[training@localhost code]** `head -20 purchases.txt | ./mapper.py | sort`
+```
 Austin  379.6
 Austin  469.63
 Boston  418.94
@@ -114,8 +119,10 @@ San Francisco 260.65
 San Jose  214.05
 San Jose  215.82
 Stockton  247.18
+```
 
 **[training@localhost code]** `head -20 purchases.txt | ./mapper.py | sort | ./reducer.py`
+```
 Austin  849.23
 Boston  418.94
 Buffalo   483.82
@@ -133,12 +140,14 @@ San Diego   66.08
 San Francisco   260.65
 San Jose  429.87
 Stockton  247.18
+```
 
 So, now that we've tested this on the command line we can test it on the cluster. The best practice when you're developing map reduce jobs is first to test locally with a small data set before you run your code on the entire, huge, set of data. So, now that we've tested on the command line, we can test our code on the cluster. Best practice, when you're developing that reduced jobs, is to first test with a small data set. Before you run your code on your entire huge set of data. But, we're already, pretty, confident here. So, let's just run the thing on the whole `purchases.txt` file.
 
 We'll use the `hs` alias to save some typing. I specified my mapper, my reducer, my input directory, and a new output directory which we'll call output two. And off hadoop goes. It starts running the job. 
 
 **[training@localhost code]** `hs mapper.py reducer.py myinput myoutput`
+```
 packageJobJar: [mapper.py, reducer.py, /tmp/hadoop-training/hadoop-unjar9030416268142443792/] [] /tmp/streamjob2061235741260030596.jar tmpDir=null
 18/07/08 04:08:16 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
 18/07/08 04:08:16 WARN snappy.LoadSnappy: Snappy native library is available
@@ -167,6 +176,7 @@ packageJobJar: [mapper.py, reducer.py, /tmp/hadoop-training/hadoop-unjar90304162
 18/07/08 04:09:27 INFO streaming.StreamJob:  map 100%  reduce 100%
 18/07/08 04:09:31 INFO streaming.StreamJob: Job complete: job_201807080307_0001
 18/07/08 04:09:31 INFO streaming.StreamJob: Output: myoutput
+```
 
 When the job's finished, `hadoop fs -ls` of `myoutput` shows me the just I'd expect is a part-00000 file in that and just as we did before we can `hadoop fs -cat` that file to see our actual results.
 
@@ -178,6 +188,7 @@ drwxr-xr-x   - training supergroup          0 2018-07-08 04:08 myoutput/_logs
 -rw-r--r--   1 training supergroup       2296 2018-07-08 04:09 myoutput/part-00000
 ```
 **[training@localhost code]** `hadoop fs -cat myoutput/part-00000`
+```
 Albuquerque   10052311.42
 Anaheim   10076416.36
 Anchorage   9933500.4
@@ -281,3 +292,4 @@ Virginia Beach  10086553.5
 Washington  10139363.39
 Wichita   10083643.21
 Winston–Salem   10044011.83
+```

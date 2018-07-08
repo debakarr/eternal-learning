@@ -52,12 +52,14 @@ print count, "\t", salesTotal
 
 ### Checking locally
 
-**[training@localhost code]** `head -20 purchases.txt | ./totalSaleMapper.py | sort | ./totalSaleReducer.py` 
+**[training@localhost code]** `head -20 purchases.txt | ./totalSaleMapper.py | sort | ./totalSaleReducer.py`
+
 20 	5004.43
 
 ### Run the MapReduce job
 
 **[training@localhost code]** `hs totalSaleMapper.py totalSaleReducer.py myinput myoutput4`
+```
 packageJobJar: [totalSaleMapper.py, totalSaleReducer.py, /tmp/hadoop-training/hadoop-unjar5139695761542853766/] [] /tmp/streamjob1138384534497927341.jar tmpDir=null
 18/07/06 07:02:30 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
 18/07/06 07:02:31 WARN snappy.LoadSnappy: Snappy native library is available
@@ -87,6 +89,7 @@ packageJobJar: [totalSaleMapper.py, totalSaleReducer.py, /tmp/hadoop-training/ha
 18/07/06 07:03:42 INFO streaming.StreamJob:  map 100%  reduce 100%
 18/07/06 07:03:43 INFO streaming.StreamJob: Job complete: job_201807060555_0004
 18/07/06 07:03:43 INFO streaming.StreamJob: Output: myoutput4
+```
 
 ### Checking list of file in output directory
 
@@ -101,4 +104,5 @@ drwxr-xr-x   - training supergroup          0 2018-07-06 07:02 myoutput4/_logs
 ### Checking content of output file
 
 **[training@localhost code]** `hadoop fs -cat myoutput4/part-00000`
-4138476 	1034457953.26
+
+**4138476 	1034457953.26**
