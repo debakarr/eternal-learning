@@ -39,115 +39,121 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 ***
 
 <a name="lpthw"></a>
-* **Learn Python The Hard Way**
-	* [Exercise 1: A Good First Program](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-1-(A-Good-First-Program))
+<details>
+	<summary><b>Learn Python The Hard Way</b></summary>
+	
+* [Exercise 1: A Good First Program](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-1-(A-Good-First-Program))
 
-	* [Exercise 2: Comments And Pound Characters](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-2-(Comments-and-Pound-Characters))
+* [Exercise 2: Comments And Pound Characters](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-2-(Comments-and-Pound-Characters))
 
-	* [Exercise 3: Numbers And Math](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-3-(Numbers-and-Math))
+* [Exercise 3: Numbers And Math](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-3-(Numbers-and-Math))
 
-	* [Exercise 4: Variables And Names](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-4-(Variables-and-Names))
+* [Exercise 4: Variables And Names](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-4-(Variables-and-Names))
 
-	* [Exercise 5: More Variables And Printing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-5-(More-Variables-and-Printing))
+* [Exercise 5: More Variables And Printing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-5-(More-Variables-and-Printing))
 
-	* [Exercise 6: Strings And Text](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-6-(Strings-and-Text))
+* [Exercise 6: Strings And Text](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-6-(Strings-and-Text))
 
-	* [Exercise 7: More Printing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-7-(More-Printing))
+* [Exercise 7: More Printing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-7-(More-Printing))
 
-	* [Exercise 8: Printing, Printing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-8-(Printing,-Printing))
+* [Exercise 8: Printing, Printing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-8-(Printing,-Printing))
 
-	* [Exercise 9: Printing, Printing, Printing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-9-(Printing,-Printing,-Printing))
+* [Exercise 9: Printing, Printing, Printing](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/LPTHW/Learn_Python_the_Hard_Way_Exercise_Notebook.ipynb#Exercise-9-(Printing,-Printing,-Printing))
 
-	* (-)[Exercise 10: What Was That?]()
+* (-)[Exercise 10: What Was That?]()
 
-	* [Exercise 11: Asking Questions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex11)
+* [Exercise 11: Asking Questions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex11)
 
-	* [Exercise 12: Prompting People](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex12)
+* [Exercise 12: Prompting People](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex12)
 
-	* [Exercise 13: Parameters, Unpacking, Variables](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex13)
+* [Exercise 13: Parameters, Unpacking, Variables](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex13)
 
-	* [Exercise 14: Prompting And Passing](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex14)
+* [Exercise 14: Prompting And Passing](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex14)
 
-	* [Exercise 15: Reading Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex15)
+* [Exercise 15: Reading Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex15)
 
-	* [Exercise 16: Reading And Writing Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex16)
+* [Exercise 16: Reading And Writing Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex16)
 
-	* [Exercise 17: More Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex17)
+* [Exercise 17: More Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex17)
 
-	* [Exercise 18: Names, Variables, Code, Functions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex18)
+* [Exercise 18: Names, Variables, Code, Functions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex18)
 
-	* [Exercise 19: Functions And Variables](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex19)
+* [Exercise 19: Functions And Variables](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex19)
 
-	* [Exercise 20: Functions And Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex20)
+* [Exercise 20: Functions And Files](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex20)
 
-	* [Exercise 21: Functions Can Return Something](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex21)
+* [Exercise 21: Functions Can Return Something](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex21)
 
-	* (-)[Exercise 22: What Do You Know So Far?]()
+* (-)[Exercise 22: What Do You Know So Far?]()
 
-	* [Exercise 23: Read Some Code](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex23)
+* [Exercise 23: Read Some Code](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex23)
 
-	* [Exercise 24: More Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex24)
+* [Exercise 24: More Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex24)
 
-	* [Exercise 25: Even More Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex25)
+* [Exercise 25: Even More Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex25)
 
-	* [Exercise 26: Congratulations, Take A Test!](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex26)
+* [Exercise 26: Congratulations, Take A Test!](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex26)
 
-	* (-)[Exercise 27: Memorizing Logic]()
+* (-)[Exercise 27: Memorizing Logic]()
 
-	* [Exercise 28: Boolean Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex28)
+* [Exercise 28: Boolean Practice](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex28)
 
-	* [Exercise 29: What If](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex29)
+* [Exercise 29: What If](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex29)
 
-	* [Exercise 30: Else And If](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex30)
+* [Exercise 30: Else And If](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex30)
 
-	* [Exercise 31: Making Decisions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex31)
+* [Exercise 31: Making Decisions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex31)
 
-	* [Exercise 32: Loops And Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex32)
+* [Exercise 32: Loops And Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex32)
 
-	* [Exercise 33: While Loops](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex33)
+* [Exercise 33: While Loops](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex33)
 
-	* [Exercise 34: Accessing Elements Of Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex34)
+* [Exercise 34: Accessing Elements Of Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex34)
 
-	* [Exercise 35: Branches and Functions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex35)
+* [Exercise 35: Branches and Functions](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex35)
 
-	* (-)[Exercise 36: Designing and Debugging]()
+* (-)[Exercise 36: Designing and Debugging]()
 
-	* (-)[Exercise 37: Symbol Review]()
+* (-)[Exercise 37: Symbol Review]()
 
-	* [Exercise 38: Doing Things To Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex38)
+* [Exercise 38: Doing Things To Lists](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex38)
 
-	* [Exercise 39: Dictionaries, Oh Lovely Dictionaries](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex39)
+* [Exercise 39: Dictionaries, Oh Lovely Dictionaries](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex39)
 
-	* [Exercise 40: Modules, Classes, And Objects](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex40)
+* [Exercise 40: Modules, Classes, And Objects](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex40)
 
-	* [Exercise 41: Learning To Speak Object Oriented](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex41)
+* [Exercise 41: Learning To Speak Object Oriented](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex41)
 
-	* [Exercise 42: Is-A, Has-A, Objects, and Classes](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex42)
+* [Exercise 42: Is-A, Has-A, Objects, and Classes](https://github.com/Dibakarroy1997/eternal-learning/tree/master/LPTHW/ex42)
 
-	* (-)[Exercise 43: Gothons From Planet Percal #25]()
+* (-)[Exercise 43: Gothons From Planet Percal #25]()
 
-	* (-)[Exercise 44: Inheritance Vs. Composition]()
+* (-)[Exercise 44: Inheritance Vs. Composition]()
 
-	* (-)[Exercise 45: You Make A Game]()
+* (-)[Exercise 45: You Make A Game]()
 
-	* (-)[Exercise 46: A Project Skeleton]()
+* (-)[Exercise 46: A Project Skeleton]()
 
-	* (-)[Exercise 47: Automated Testing]()
+* (-)[Exercise 47: Automated Testing]()
 
-	* (-)[Exercise 48: Advanced User Input]()
+* (-)[Exercise 48: Advanced User Input]()
 
-	* (-)[Exercise 49: Making Sentences]()
+* (-)[Exercise 49: Making Sentences]()
 
-	* (-)[Exercise 50: Your First Website]()
+* (-)[Exercise 50: Your First Website]()
 
-	* (-)[Exercise 51: Getting Input From A Browser]()
+* (-)[Exercise 51: Getting Input From A Browser]()
 
-	* (-)[Exercise 52: The Start Of Your Web Game]()
+* (-)[Exercise 52: The Start Of Your Web Game]()
+</details>
+	
 
 ***
 
 <a name="regex"></a>
-#### [Regular Expression Notes](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb)
+<details>
+	<summary><b><a href="http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb">Regular Expression Notes</a></b></summary>
+
 
 ***
 
@@ -200,6 +206,7 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 * **[re.search()](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#re.search())**
 
 * **[flags](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Regex/Regex.ipynb#flags)**
+</details>
 
 ***
 
@@ -214,7 +221,8 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 ***
 
 <a name="udemyPythonDataScienceBootcamp"></a>
-#### [Udemy] Python for Data Science and Machine Learning Bootcamp
+<details>
+	<summary><b>[Udemy] Python for Data Science and Machine Learning Bootcamp</b></summary>
 
 [Link to the course](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/)
 
@@ -251,9 +259,12 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 	* [Plotly and Cufflinks](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Basics/Plotly%20and%20Cufflinks/Plotly%20and%20Cufflinks.ipynb)
 
+</details>
+
 ***
 <a name="udemyMachineLearning"></a>
-#### [Udemy] Machine Learning A-Z™: Hands-On Python & R In Data Science
+<details>
+	<summary><b>[Udemy] Machine Learning A-Z™: Hands-On Python & R In Data Science</b></summary>
 
 [Link to the course](https://www.udemy.com/machinelearning/)
 
@@ -415,6 +426,7 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 		* [[R] XGBoost](http://nbviewer.jupyter.org/github/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20A-Z%E2%84%A2%3A%20Hands-On%20Python%20%26%20R%20In%20Data%20Science/Part%2010%20-%20Model%20Selection%20And%20Boosting/XGBoost/%5BR%5D%20XGBoost.ipynb)
 
 * * *
+</details>
 
 <a name="importantLinks"></a>
 **Important Links**
@@ -425,7 +437,8 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 
 ***
 <a name="googleDevelopersMachineLearning"></a>
-#### [Google Developers] Machine Learning Crash Course with TensorFlow APIs
+<details>
+	<summary><b>[Google Developers] Machine Learning Crash Course with TensorFlow APIs</b></summary>
 
 [Link to the course](https://developers.google.com/machine-learning/crash-course/)
 
@@ -452,6 +465,8 @@ Repository for all my learning stuff. This is going to be a huge repository cont
 	* [[Notes] Reducing Loss Learning Rate](https://github.com/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Crash%20Course%20with%20TensorFlow%20APIs%20Google%20Developers/Reducing%20Loss/%5BNotes%5D%20Reducing%20Loss%20Learning%20Rate.pdf)
 
 	* [[Notes] Reducing Loss Stochastic Gradient Descent](https://github.com/Dibakarroy1997/eternal-learning/blob/master/Machine%20Learning%20Crash%20Course%20with%20TensorFlow%20APIs%20Google%20Developers/Reducing%20Loss/%5BNotes%5D%20Reducing%20Loss%20Stochastic%20Gradient%20Descent.pdf)
+
+</details>
 
 ***
 <a name="myBlog"></a>
