@@ -1,6 +1,6 @@
  # Given an array containing only 0's and 1's where all 0's come before 1
  # Find the index of first 1
-
+import time
 
 # Time Complexity - O(n)
 # Space Complexity - O(1)
@@ -29,5 +29,10 @@ def usingBinarySearch(arr):
 if __name__ == '__main__':
     arr = [0, 0, 0, 0, 0, 0, 1, 1, 1]
 
+    start_time = time.time()
     print 'First index of "1" in', arr, 'using linear search is:', linearSearch(arr)
+    print "--- %s seconds ---\n" % (time.time() - start_time)
+    
+    start_time = time.time()
     print 'First index of "1" in', arr, 'using binary search is:', usingBinarySearch(arr)
+    print "--- %s seconds ---\n" % (time.time() - start_time)
